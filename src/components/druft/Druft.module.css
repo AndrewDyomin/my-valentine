@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.fieldsList {
+    list-style: none;
+    padding: 0;
+}
+
+.fieldArea {
+    border: 2px solid #575656;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.greenFieldArea {
+    border: 2px solid #76b974
+}
+
+.redFieldArea {
+    border: 2px solid #bb5f5f
+}
+
+.fieldArea:nth-child(n + 2) {
+    margin-top: 10px;
+}
+
+.addFieldBtn {
+    min-width: 25%;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: #76b974;
+    color: #000;
+    font-size: 20px;
+}
+
+.weightFieldArea {
+    margin-top: 10px;
+}
+
+.weightField {
+    margin-left: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
