@@ -2,7 +2,6 @@
   "name": "my-valentyne",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrewdyomin.github.io/my-valentine/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -16,6 +15,7 @@
     "lodash": "^4.17.21",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.3"
   },
